@@ -10,6 +10,10 @@ public class BubbleSort {
                 }
             }
         }
+        printArray(A);
+    }
+    public void printArray(int[] A){
+        int l = A.length;
         for(int i=0; i<l; i++){
             System.out.print(A[i]+"     ");
         }
