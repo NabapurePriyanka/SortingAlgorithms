@@ -16,9 +16,11 @@ public class QuickSort {
     }
     public int rearrange(int[] A, int start, int end){
         int random = getRandomValue(start, end);
+
         int tempVal = A[random];
         A[random] = A[start];
         A[start] = tempVal;
+
         int index = -1;
         int p1 = start+1;
         int p2 = end;

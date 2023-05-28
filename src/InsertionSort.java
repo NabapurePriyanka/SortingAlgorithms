@@ -7,13 +7,13 @@ public class InsertionSort {
         printArray(A);
     }
     public void insertInSortedArray(int[] A, int toInsertIndex){
-        int ele = toInsertIndex;
         for(int i=toInsertIndex-1; i>=0; i--){
-            if(A[ele] < A[i]){
+            if(A[i] > A[i+1]){
                 int temp = A[i];
-                A[i] = A[ele];
-                A[ele] = temp;
-                ele--;
+                A[i] = A[i+1];
+                A[i+1] = temp;
+            } else{
+                break;
             }
         }
     }
