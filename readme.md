@@ -27,7 +27,7 @@ Idea: Merge sort is a popular sorting algorithm that follows the divide-and-conq
 
 TC: Merge sort has a time complexity of O(n log n) in all cases.
 
-**Quick Sort*
+**Quick Sort**
 
 Idea: Quick sort is a widely used sorting algorithm that follows the divide-and-conquer strategy to sort elements in an array.
 
